@@ -19,4 +19,4 @@ RUN pecl install mongodb
 
 COPY ./php.ini /usr/local/etc/php/php.ini
 
-RUN a2enmode rewrite
+RUN a2enmod rewrite
